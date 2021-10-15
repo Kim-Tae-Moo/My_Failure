@@ -48,10 +48,6 @@ int Editor(void)
 
 
 
-
-
-
-
     if (letter=='\n') {
         Enter_Menu();
         
