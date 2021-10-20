@@ -18,7 +18,7 @@ extern int Select_Memo(void)
         printf("input Memo\'s title : ");
         scanf("%s", title);
         
-        Memo_List=fopen("Memo_List.txt", "a+t");
+        Memo_List=fopen("First_Failure/Memo_List.txt", "a+t");
 
         //input to list from Memo_List.txt
         fscanf(Memo_List, "%s", list);
